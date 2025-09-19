@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -16,6 +17,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  align-content: center;
+  justify-content: center;
+
 }
 
 h1,
@@ -35,6 +39,91 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  align-content: flex-end;
+  width: 100%;
+  margin: 133px 30px;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  
+  
+ /* 
+ 
+
+  overflow: scroll;
+
+ 
+ 
+   возможно это не нужно*/
+}
+
+
+.result__video-container {
+  width: 600px;   /* по макету 711*/
+  height: 386px;
+  margin-bottom: 16px;
+  position: relative;
+  
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;/* ПОЧЕМУ НЕ РАБОТАЕТ?????*/
+  
+}
+
+.search-form {
+  display: flex;
+  gap: 40px; 
+  align-content: flex-start;
+
+}
+
+.content__details {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 399px; /* возможно нужно удалить?????*/
+} 
+
+.content__list-container {
+  display: flex;
+  flex-direction: column;
+  height: 534px;
+  overflow: scroll;
+  gap: 30px;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.content__video-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+}
+
+
+.content__video-card-thumbnail {
+min-width: 194px;
+height: 103px;
+object-fit: cover;
+object-position: center;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
 }
 
 /* Кастомный скроллбар */
