@@ -50,14 +50,13 @@ ol {
   flex-wrap: wrap; 
   flex-direction: row;
   position: relative;
-  /*max-height: 534px; УДАЛИТЬ*/
 }
 
 .result__video-container {
   width: 711px;   
   height: 386px;
   margin-bottom: 16px;
- position: relative; 
+  position: relative; 
 }
 
 .result__video {
@@ -78,8 +77,8 @@ ol {
 
 .search-form__fieldset-title {
   font-weight: 400;
-font-size: 18px;
-margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .content__details {
@@ -93,11 +92,10 @@ margin-bottom: 5px;
 
 .title {
   font-weight: 700;
-font-size: 75px;
-line-height: 94%;
-text-transform: uppercase;
- font-family: 'Oswald', sans-serif;
-
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
 }
 
 .content__accent {
@@ -131,42 +129,41 @@ text-transform: uppercase;
 
 
 .content__card-link {
-   display: block;
+  display: block;
   cursor: pointer;
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 
 
 .content__video-card-title {
-font-weight: 700;
-font-size: 30px;
-line-height: 100%;
-text-transform: uppercase;
-overflow: hidden;
-text-overflow: ellipsis;
-font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Oswald', sans-serif;
 }
 
 .content__video-card-description {
   margin-top: 6px;
-font-weight: 400;
-font-size: 18px;
-line-height: 90%;
--webkit-line-clamp: 4;
-display: -webkit-box;
--webkit-box-orient: vertical;
-overflow: hidden;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 90%;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
-min-width: 194px;
-height: 103px;
-object-fit: cover;
-object-position: center;
-margin-right: 2px;
-
+  min-width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 2px;
 }
 
 .content__video-card-description-container {
@@ -293,10 +290,10 @@ input[type="checkbox"]:checked+.search-form__pseudo-checkbox::after {
 }
 
 .search-form__submit-button {
- width: 194px;
+  width: 194px;
   height: 34px;
- align-self: flex-end; 
- align-content: end;
+  align-self: flex-end; 
+  align-content: end;
 }
 
 .more-button {
